@@ -1,0 +1,16 @@
+:root{
+    --image: url('https://www.mrsdash.com/sites/default/files/styles/recipe-main-img/public/Recipe_Grilled_Chicken_Burgers_359_1.jpg?itok=og6cItQB');
+    --recipe: 'Cheesy Chicken Burgers';
+    --description: 'Chicken Burgers with Chedder Cheese cooked within.';
+    --ingredient-1: '1 pound ground chicken';
+    --ingredient-2: '2 cups shredded sharp cheddar cheese';
+    --ingredient-3: '1/2 ounce minced onion';
+    --ingredient-4: '1/2 ounce mince garlic';
+    --ingredient-5: '1 Bottle Grapeseed Oil';
+    --step-1: 'Mix the ground chicken, shredded cheese, minced onion, and minced garlic into a bowl.';
+    --step-2: 'Form into patty.';
+    --step-3: 'Add oil to skillet';
+    --step-4: 'Place patty on skillet in oil';
+    --step-5: 'Flip patty every 30 seconds';
+    --step-6: 'If burger sticks to bottom of skillet scrape it and any cheese off the bottom of the skillet.';
+}

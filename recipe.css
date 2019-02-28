@@ -1,0 +1,77 @@
+body{
+    background-color: pink;
+}
+figure{
+    background-image: var(--image);
+	background-repeat: no-repeat;
+	background-size: contain;
+    background-position: center;
+    height: 40%;
+    width: 40%;
+    float: right;
+}
+.center{
+    text-align: center;
+}
+#recipe::before{
+    content: var(--recipe);
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#description::before{
+    content: var(--description);
+}
+#ingredients,#steps{
+    display: inline-block;
+    border: solid black;
+    position: relative;
+    padding: 5px 10px 5px 5px;
+    left: 10%;
+}
+#ingredients ul{
+    list-style-type: circle;
+}
+#ingredients ul::before{
+    content: 'Ingredients';
+    font-weight: bold;
+}
+#ingredients ul li:nth-child(1)::before{
+    content: var(--ingredient-1);
+}
+#ingredients ul li:nth-child(2)::before{
+    content: var(--ingredient-2);
+}
+#ingredients ul li:nth-child(3)::before{
+    content: var(--ingredient-3);
+}
+#ingredients ul li:nth-child(4)::before{
+    content: var(--ingredient-4);
+}
+#ingredients ul li:nth-child(5)::before{
+    content: var(--ingredient-5);
+}
+#steps ol{
+    list-style-type: upper-roman;
+}
+#steps ol::before{
+    content: 'Instructions';
+    font-weight: bold;
+}
+#steps ol li:nth-child(1)::before{
+    content: var(--step-1);
+}
+#steps ol li:nth-child(2)::before{
+    content: var(--step-2);
+}
+#steps ol li:nth-child(3)::before{
+    content: var(--step-3);
+}
+#steps ol li:nth-child(4)::before{
+    content: var(--step-4);
+}
+#steps ol li:nth-child(5)::before{
+    content: var(--step-5);
+}
+#steps ol li:nth-child(6)::before{
+    content: var(--step-6);
+}
